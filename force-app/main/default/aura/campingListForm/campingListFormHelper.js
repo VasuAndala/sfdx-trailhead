@@ -1,0 +1,14 @@
+({
+    createItem : function(component, campaign) {
+        alert('--------CMP LIST FORM HELPER-');
+        var createEvent = component.getEvent("addItem");
+        alert(createEvent);
+        createEvent.setParams({ "item": campaign });
+        createEvent.fire();
+        component.set("v.newItem",{ 'sobjectType': 'Camping_Item__c',
+                                   'Name': '',
+                                   'Quantity__c': 0,
+                                   'Price__c': 0,
+                                   'Packed__c': false });
+    }
+})
