@@ -1,7 +1,7 @@
 public class MuleSoftIntegrationAPI {
     
     /*
-    To get Mulesoft Products
+     * To get Mulesoft Products
     */
     public static void getMuleSoftProducts(){
         
