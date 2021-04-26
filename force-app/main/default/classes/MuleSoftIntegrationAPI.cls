@@ -1,6 +1,8 @@
 public class MuleSoftIntegrationAPI {
     
-    
+    /*
+    To get Mulesoft Products
+    */
     public static void getMuleSoftProducts(){
         
         String endpoint ='https://anypoint.mulesoft.com/mocking/api/v1/links/9eeafe33-e800-4f30-8920-3f8866691f3d/products/2';
