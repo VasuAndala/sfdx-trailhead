@@ -6,6 +6,7 @@
     }
   ],
   "namespace": "",
+  "oauthLocalPort": "8088",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "51.0"
 }
