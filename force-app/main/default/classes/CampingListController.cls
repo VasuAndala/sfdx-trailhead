@@ -6,7 +6,11 @@ public class CampingListController {
     }
     @Auraenabled
     public static Camping_Item__c saveItem (Camping_Item__c item){
-        insert item;
+        try{
+            insert item;
+        }catch(Exception e){
+            System.debug('Exception due to insert'+e);
+        }
         return item;
     }
 }
